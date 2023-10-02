@@ -1,0 +1,166 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+}
+
+portfolio-item {
+    margin-bottom: 20px;
+}
+
+portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: transform 0.3s;
+}
+
+portfolio-item img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
+
+section {
+    padding: 50px 0;
+}
+
+
+/* profile section */
+.profile-picture-container {
+    text-align: center;
+}
+.profile-pic{
+   margin: 2;
+}
+.name{
+font-family: cursive;
+font-size: 10lvh;
+color: #8b1901;
+line-height: 8lvh;
+margin-top: 30px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.bio{
+    background-color: #8b1901;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #8b1901;
+    transition: transform 0.3s;
+}
+.profile-picture:hover {
+    transform: scale(1.1);
+}
+
+.about {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.about p {
+    margin-bottom: 15px;
+}
+
+
+.abouttext{
+    transition: background-color 0.3s ease;
+    margin: 20px;
+    position: relative;
+}
+.abouttext:hover{
+    background-color: #8b1901;
+    border-radius: 20px;
+}
+.abouttext::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: #8b1901;
+    margin: 10px auto;
+}
+
+.ui{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.portfolio-item h3{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 4lvh;
+    color: #8b1901;
+}
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: transform 0.3s;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.1);
+}
+
